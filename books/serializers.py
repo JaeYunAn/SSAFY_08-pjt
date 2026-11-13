@@ -67,3 +67,11 @@ class ThreadDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Thread
         fields = '__all__'
+
+
+class ThreadSerializer(serializers.ModelSerializer):
+    book = BookTitleSerializer(read_only=True)
+
+    class Meta:
+        model = Thread
+        fields = '__all__'
