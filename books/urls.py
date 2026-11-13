@@ -9,4 +9,5 @@ urlpatterns = [
     path('books/<int:book_pk>/threads/', views.create_thread),
     path('threads/', views.thread_list),
     path('threads/<int:thread_pk>/', views.thread_detail),
+    path('threads/<int:thread_pk>/comments/', views.create_comment),
 ]
