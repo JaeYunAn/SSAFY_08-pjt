@@ -1,3 +1,4 @@
+from django.db.models import Q
 from django.shortcuts import get_object_or_404
 from rest_framework import status
 from rest_framework.decorators import api_view
@@ -99,3 +100,16 @@ def comment_detail(request, comment_pk):
         comment.delete()
         data = {'message': f'comment {comment_pk} is deleted.'}
         return Response(data, status=status.HTTP_204_NO_CONTENT)
+
+
+@api_view(['GET'])
+def book_search(request):
+    query = request.query_params.get('q', '').strip()
+    if not query:
+        return Response({'message': '검색어를 입력해주세요.'})
+
+    books = Book.objects.filter(
+        Q(title__icontains=query) | Q(author__icontains=query)
+    )
+    serializer = BookListSerializer(books, many=True)
+    return Response(serializer.data)
