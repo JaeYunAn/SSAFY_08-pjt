@@ -10,4 +10,5 @@ urlpatterns = [
     path('threads/', views.thread_list),
     path('threads/<int:thread_pk>/', views.thread_detail),
     path('threads/<int:thread_pk>/comments/', views.create_comment),
+    path('comments/<int:comment_pk>/', views.comment_detail),
 ]

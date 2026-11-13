@@ -3,7 +3,7 @@ from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
-from .models import Book, Category, Thread
+from .models import Book, Category, Comment, Thread
 from .serializers import (
     BookListSerializer,
     BookSerializer,
@@ -79,3 +79,23 @@ def create_comment(request, thread_pk):
     if serializer.is_valid(raise_exception=True):
         serializer.save(thread=thread)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+
+@api_view(['GET', 'PUT', 'DELETE'])
+def comment_detail(request, comment_pk):
+    comment = get_object_or_404(Comment, pk=comment_pk)
+
+    if request.method == 'GET':
+        serializer = CommentSerializer(comment)
+        return Response(serializer.data)
+
+    elif request.method == 'PUT':
+        serializer = CommentSerializer(comment, data=request.data)
+        if serializer.is_valid(raise_exception=True):
+            serializer.save()
+            return Response(serializer.data)
+
+    elif request.method == 'DELETE':
+        comment.delete()
+        data = {'message': f'comment {comment_pk} is deleted.'}
+        return Response(data, status=status.HTTP_204_NO_CONTENT)
