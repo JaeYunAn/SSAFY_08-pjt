@@ -8,6 +8,7 @@ from .serializers import (
     BookListSerializer,
     BookSerializer,
     CategorySerializer,
+    CommentSerializer,
     ThreadDetailSerializer,
     ThreadListSerializer,
     ThreadSerializer,
@@ -68,4 +69,13 @@ def create_thread(request, book_pk):
     serializer = ThreadSerializer(data=request.data)
     if serializer.is_valid(raise_exception=True):
         serializer.save(book=book)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+
+@api_view(['POST'])
+def create_comment(request, thread_pk):
+    thread = get_object_or_404(Thread, pk=thread_pk)
+    serializer = CommentSerializer(data=request.data)
+    if serializer.is_valid(raise_exception=True):
+        serializer.save(thread=thread)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
