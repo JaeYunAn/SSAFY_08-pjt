@@ -10,6 +10,7 @@ from .serializers import (
     CategorySerializer,
     ThreadDetailSerializer,
     ThreadListSerializer,
+    ThreadSerializer,
 )
 
 
@@ -59,3 +60,12 @@ def thread_detail(request, thread_pk):
         thread.delete()
         data = {'message': f'thread {thread_pk} is deleted.'}
         return Response(data, status=status.HTTP_204_NO_CONTENT)
+
+
+@api_view(['POST'])
+def create_thread(request, book_pk):
+    book = get_object_or_404(Book, pk=book_pk)
+    serializer = ThreadSerializer(data=request.data)
+    if serializer.is_valid(raise_exception=True):
+        serializer.save(book=book)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
