@@ -2,8 +2,13 @@ from django.shortcuts import get_object_or_404
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
-from .models import Book, Category
-from .serializers import BookListSerializer, BookSerializer, CategorySerializer
+from .models import Book, Category, Thread
+from .serializers import (
+    BookListSerializer,
+    BookSerializer,
+    CategorySerializer,
+    ThreadListSerializer,
+)
 
 
 @api_view(['GET'])
@@ -24,4 +29,11 @@ def book_list(request):
 def book_detail(request, book_pk):
     book = get_object_or_404(Book, pk=book_pk)
     serializer = BookSerializer(book)
+    return Response(serializer.data)
+
+
+@api_view(['GET'])
+def thread_list(request):
+    threads = Thread.objects.all()
+    serializer = ThreadListSerializer(threads, many=True)
     return Response(serializer.data)

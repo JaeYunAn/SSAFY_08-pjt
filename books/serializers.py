@@ -29,3 +29,17 @@ class BookSerializer(serializers.ModelSerializer):
     class Meta:
         model = Book
         fields = '__all__'
+
+
+class BookTitleSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Book
+        fields = ('title',)
+
+
+class ThreadListSerializer(serializers.ModelSerializer):
+    book = BookTitleSerializer(read_only=True)
+
+    class Meta:
+        model = Thread
+        fields = ('id', 'title', 'book')
