@@ -1,0 +1,1052 @@
+[
+    {
+        "model": "books.book",
+        "pk": 1,
+        "fields": {
+            "category": 1,
+            "title": "소년이 온다",
+            "description": "섬세한 감수성과 치밀한 문장으로 인간 존재의 본질을 탐구해온 작가 한강의 여섯번째 장편소설. '상처의 구조에 대한 투시와 천착의 서사'를 통해 한강만이 풀어낼 수 있는 방식으로 1980년 5월을 새롭게 조명한다.",
+            "isbn": "9788936434120",
+            "cover": "https://image.aladin.co.kr/product/4086/97/coversum/8936434128_2.jpg",
+            "publisher": "창비",
+            "pub_date": "2014-05-19",
+            "author": "한강",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 2,
+        "fields": {
+            "category": 1,
+            "title": "작별하지 않는다",
+            "description": "2016년 채식주의자로 인터내셔널 부커상을 수상하고 2018년 흰으로 같은 상 최종 후보에 오른 한강 작가의 5년 만의 장편소설. 2019년 겨울부터 이듬해 봄까지 계간 문학동네에 전반부를 연재하며 큰 관심을 모은 작품이다.",
+            "isbn": "9788954682152",
+            "cover": "https://image.aladin.co.kr/product/27877/5/coversum/8954682154_3.jpg",
+            "publisher": "문학동네",
+            "pub_date": "2021-09-09",
+            "author": "한강",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 3,
+        "fields": {
+            "category": 1,
+            "title": "채식주의자",
+            "description": "2016년 인터내셔널 부커상을 수상하며 한국문학의 입지를 한단계 확장시킨 한강의 장편소설. 상처받은 영혼의 고통과 식물적 상상력의 강렬한 결합을 정교한 구성과 흡인력 있는 문체로 보여주며 섬뜩한 아름다움의 미학을 한강만의 방식으로 완성한 역작이다.",
+            "isbn": "9788936434595",
+            "cover": "https://image.aladin.co.kr/product/29137/2/coversum/8936434594_2.jpg",
+            "publisher": "창비",
+            "pub_date": "2022-03-28",
+            "author": "한강",
+            "customer_review_rank": 8
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 4,
+        "fields": {
+            "category": 1,
+            "title": "흰",
+            "description": "2018년 봄, 한강 작가의 소설 흰을 새롭게 선보인다. 이 년 전 오월에 세상에 나와 빛의 겹겹 오라기로 둘러싸인 적 있던 그 흰에 새 옷을 입히게 된 건 소설 발간에 즈음해 행했던 작가의 퍼포먼스가 글과 함께 배었으면 하는 바람에서였다.",
+            "isbn": "9788954651134",
+            "cover": "https://image.aladin.co.kr/product/14322/3/coversum/8954651135_3.jpg",
+            "publisher": "문학동네",
+            "pub_date": "2018-04-25",
+            "author": "한강",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 5,
+        "fields": {
+            "category": 1,
+            "title": "서랍에 저녁을 넣어 두었다",
+            "description": "'문학과지성 시인선' 438권. 인간 삶의 고독과 비애, 삶과 죽음의 경계에서 맞닥뜨리는 어떤 진실과 본질적인 정서들을 특유의 단단하고 시정 어린 문체로 새겨온 한강의 첫 시집. 틈틈이 쓰고 발표한 시들 가운데 60편을 추려 이번 시집을 묶었다.",
+            "isbn": "9788932024639",
+            "cover": "https://image.aladin.co.kr/product/3335/59/coversum/8932024634_3.jpg",
+            "publisher": "문학과지성사",
+            "pub_date": "2013-11-15",
+            "author": "한강",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 6,
+        "fields": {
+            "category": 1,
+            "title": "희랍어 시간",
+            "description": "채식주의자, 내 여자의 열매, 바람이 분다, 가라의 작가 한강의 장편소설. 이것은 한 남자와 한 여자의 이야기이다. 다만 한 여자와 한 남자의 기척이 만나는 이야기이다. 말語을 잃어가는 한 여자의 침묵과 눈眼을 잃어가는 한 남자의 빛이 만나는 찰나의 이야기를 그린 소설이다.",
+            "isbn": "9788954616515",
+            "cover": "https://image.aladin.co.kr/product/1384/91/coversum/8954616518_2.jpg",
+            "publisher": "문학동네",
+            "pub_date": "2011-11-10",
+            "author": "한강",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 7,
+        "fields": {
+            "category": 6,
+            "title": "언젠가 우리가 같은 별을 바라본다면",
+            "description": "고국을 떠나 70년 만에 필리핀의 한 작은 섬에서 발견된 쑤니 할머니의 젊은 시절을 담은 이야기이다. 작가는 우리나라가 일본에 주권을 빼앗긴 채 가난하고 핍박받던 시절을 맨몸으로 버텨 낸 우리 어머니의 어머니, 아버지의 아버지들의 이야기를 남기고자 집필을 시작했다.",
+            "isbn": "9791191061048",
+            "cover": "https://image.aladin.co.kr/product/28513/21/coversum/k882835835_1.jpg",
+            "publisher": "해결책",
+            "pub_date": "2021-12-15",
+            "author": "차인표",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 8,
+        "fields": {
+            "category": 1,
+            "title": "데미안",
+            "description": "헤르만 헤세의 ‘영혼의 전기’로 소개되는 《데미안》은 깊이 있는 정신분석과 자기 탐구로 가시밭 같은 자아 성찰의 길을 섬세하게 그려낸 그의 대표작이다. 이 책을 1919년 오리지널 초판본의 우아한 표지로 다시 만나보자.",
+            "isbn": "9791187011590",
+            "cover": "https://image.aladin.co.kr/product/9871/8/coversum/k042535550_2.jpg",
+            "publisher": "코너스톤",
+            "pub_date": "2017-01-01",
+            "author": "헤르만 헤세",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 9,
+        "fields": {
+            "category": 1,
+            "title": "모순",
+            "description": "작가 양귀자가 1998년 펴낸 세 번째 장편소설로, 책이 나온 지 한 달 만에 무서운 속도로 베스트셀러 1위에 진입, 출판계를 놀라게 하고 그해 최고의 베스트셀러로 자리 잡으면서 ‘양귀자 소설의 힘’을 다시 한 번 유감없이 보여준 소설이다.",
+            "isbn": "9788998441012",
+            "cover": "https://image.aladin.co.kr/product/2584/37/coversum/8998441012_3.jpg",
+            "publisher": "쓰다",
+            "pub_date": "2013-04-01",
+            "author": "양귀자",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 10,
+        "fields": {
+            "category": 1,
+            "title": "바람이 분다, 가라",
+            "description": "작가가 2005년 가을 무렵부터 구상에 들어가 계간 『문학과사회』에 2007년 가을부터 이듬해 가을까지 일 년 반 동안 이야기의 중반을 연재했고, 다시 일 년 남짓의 시간을 들여 처음부터 새로 고쳐 완성한 것으로 무려 4년 6개월여의 긴 시간이 투여된 작품이다. 촉망받던 한 여자 화가의 의문에 싸인 죽음을 두고, 각자가 믿는 진실을 증명하기 위해 마치 격렬한 투쟁을 치르듯 온몸으로 부딪치고 상처 입는 사람들의 이야기가 400여 페이지에 걸쳐 펼쳐진다.",
+            "isbn": "9788932020006",
+            "cover": "https://image.aladin.co.kr/product/646/75/coversum/8932020000_2.jpg",
+            "publisher": "문학과지성사",
+            "pub_date": "2010-02-26",
+            "author": "한강",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 11,
+        "fields": {
+            "category": 1,
+            "title": "작은 땅의 야수들",
+            "description": "베스트셀러 『작은 땅의 야수들』이 리커버 특별판으로 출간되었다. 호랑이와 인간이 대치하는 강렬한 프롤로그로 시작하는 『작은 땅의 야수들』은 혼란스러운 시대에 서로 다른 욕망을 품은 다양한 인간 군상들이 운명적으로 얽혀 흥망성쇠하는 장대한 대서사시다.",
+            "isbn": "9791130642574",
+            "cover": "https://image.aladin.co.kr/product/31793/43/coversum/k212833117_2.jpg",
+            "publisher": "다산책방",
+            "pub_date": "2024-06-19",
+            "author": "김주혜",
+            "customer_review_rank": 8
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 12,
+        "fields": {
+            "category": 4,
+            "title": "만화로 보는 3분 철학 1 : 서양 고대 철학편",
+            "description": "인문학과 철학의 중요성이 강조되는 시대지만 정작 어디부터 공부하면 좋을지 몰라 막막해하는 사람들을 위한 책, 『만화로 보는 3분 철학』이 카시오페아에서 출간되었다.",
+            "isbn": "9791190776752",
+            "cover": "https://image.aladin.co.kr/product/27434/96/coversum/k092733374_1.jpg",
+            "publisher": "카시오페아",
+            "pub_date": "2021-07-02",
+            "author": "김재훈, 서정욱",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 13,
+        "fields": {
+            "category": 6,
+            "title": "클래식 뮤지컬 차이콥스키의 발레곡 호두까기 인형 사운드북",
+            "description": "동화 '호두까기 인형'을 차이콥스키의 아름다운 발레곡 ‘호두까기 인형’과 함께 만난다. 유아들의 눈높이에 맞춰 쓰인 생생하고 간결한 이야기는 개성 있고 멋진 일러스트와 어우러져 세계 명작 한 편을 경험할 수 있게 한다.",
+            "isbn": "8809264181515",
+            "cover": "https://image.aladin.co.kr/product/25507/64/coversum/k322633121_1.jpg",
+            "publisher": "어스본코리아",
+            "pub_date": "2020-11-05",
+            "author": "피오나 와트",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 14,
+        "fields": {
+            "category": 2,
+            "title": "돈의 심리학 - 당신은 왜 부자가 되지 못했는가",
+            "description": "월스트리트저널에서 10년 넘게 금융과 투자에 대한 글을 써온 칼럼니스트이자 콜라보레이티브 펀드 파트너로 활동중인 모건 하우절의 첫 책이다. 출간 즉시 아마존 투자 분야 1위를 차지했고 개인 투자자부터 전문 컨설턴트까지 극찬 세례를 받으며 명실상부 ‘2020 아마존 최고의 금융도서’로 평가받는다.",
+            "isbn": "9791191056372",
+            "cover": "https://image.aladin.co.kr/product/32852/7/coversum/k132936910_2.jpg",
+            "publisher": "인플루엔셜(주)",
+            "pub_date": "2021-01-13",
+            "author": "모건 하우절",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 15,
+        "fields": {
+            "category": 3,
+            "title": "일본어 무작정 따라하기 완전판",
+            "description": "18년 동안 일본어 베스트셀러&스테디셀러로 38만 독자들에게 전폭적인 사랑을 받아온 일본어 무작정 따라하기가 일본어 무작정 따라하기 심화편과 합쳐져 이번에 완전체의 형태를 선보인다.",
+            "isbn": "9791165219956",
+            "cover": "https://image.aladin.co.kr/product/29877/32/coversum/k712838735_1.jpg",
+            "publisher": "길벗이지톡",
+            "pub_date": "2022-08-05",
+            "author": "후지이 아사리",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 16,
+        "fields": {
+            "category": 6,
+            "title": "우리 아기 오감발달 동물농장 사운드북",
+            "description": "",
+            "isbn": "8809264180921",
+            "cover": "https://image.aladin.co.kr/product/14223/27/coversum/k162532536_1.jpg",
+            "publisher": "어스본코리아",
+            "pub_date": "2018-04-11",
+            "author": "샘 태플린",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 17,
+        "fields": {
+            "category": 5,
+            "title": "룩 백",
+            "description": "자신의 재능에 절대적인 자신감이 있는 후지노와 은둔형 외톨이인 쿄모토. 시골 마을에 사는 두 소녀를 서로에게 이끌어서 묶어 준 것은 만화 그리기를 향한 한결같은 마음이었다. 시간은 흘러도 등 뒤를 든든히 받쳐 준 것은 언제나….",
+            "isbn": "9791168761841",
+            "cover": "https://image.aladin.co.kr/product/29088/67/coversum/k932837765_1.jpg",
+            "publisher": "학산문화사(만화)",
+            "pub_date": "2022-03-22",
+            "author": "후지모토 타츠키",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 18,
+        "fields": {
+            "category": 4,
+            "title": "사피엔스 - 유인원에서 사이보그까지, 인간 역사의 대담하고 위대한 질문",
+            "description": "2011년 원서 출간 이후 10년을 돌아보고 위기 상황을 맞은 인류에게 건네는 제언이 특별 서문으로 수록되었다. 현재 인류는 그 어느 때보다 어려운 상황을 맞고 있다. 난국을 헤쳐나가기 위해 무엇을 해야 할까? 저자는 더 나은 세상을 위한 키워드로 ‘인간 이해’를 강조한다.",
+            "isbn": "9788934972464",
+            "cover": "https://image.aladin.co.kr/product/31424/4/coversum/k482832219_1.jpg",
+            "publisher": "김영사",
+            "pub_date": "2024-04-01",
+            "author": "유발 하라리",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 19,
+        "fields": {
+            "category": 6,
+            "title": "우리 아기 오감발달 시끌벅적 정글 사운드북",
+            "description": "아기와 함께 사운드 놀이부터 촉감 놀이, 까꿍 놀이까지 세 가지 놀이를 즐길 수 있는 만능 사운드북이다. 호랑이, 부엉이, 개구리, 오랑우탄, 표범 등 정글 동물들의 열 가지 소리가 입체적인 음향으로 울린다.",
+            "isbn": "8809264180679",
+            "cover": "https://image.aladin.co.kr/product/10514/12/coversum/k812530039_1.jpg",
+            "publisher": "어스본코리아",
+            "pub_date": "2017-03-08",
+            "author": "샘 태플린",
+            "customer_review_rank": 8
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 20,
+        "fields": {
+            "category": 7,
+            "title": "코스모스",
+            "description": "칼 세이건의 코스모스 특별판이 세이건의 서거 10주기를 기념하여 출간되었다. 이 특별판은 지난 2004년 12월에 출간된 코스모스(양장본)의 텍스트 전문과 도판 일부를 사용하고 판형을 휴대하기 쉬운 신국판으로 바꿔 출간한 책으로, 독자들이 좀 더 쉽게 칼 세이건의 메시지를 만날 수 있도록 배려한 책이다.",
+            "isbn": "9788983711892",
+            "cover": "https://image.aladin.co.kr/product/87/9/coversum/s922637499_3.jpg",
+            "publisher": "사이언스북스",
+            "pub_date": "2006-12-20",
+            "author": "칼 세이건",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 21,
+        "fields": {
+            "category": 2,
+            "title": "EBS 다큐프라임 자본주의",
+            "description": "지금 자본주의는 기로에 놓여 있다. 이대로 갈 것인가, 새로운 길을 모색할 것인가. 약 250년에 걸쳐 우리 사회를 지배했으며 현재 위기를 겪고 있는 ‘자본주의’를 쉽게 풀어낸 방송, [EBS 다큐프라임 자본주의 5부작]이 책으로 출간됐다.",
+            "isbn": "9788957365793",
+            "cover": "https://image.aladin.co.kr/product/3164/26/coversum/8957365796_1.jpg",
+            "publisher": "가나출판사",
+            "pub_date": "2013-09-27",
+            "author": "EBS 자본주의 제작팀",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 22,
+        "fields": {
+            "category": 3,
+            "title": "ETS 토익 단기 공략 750+ (LC + RC) - 기출문제 한국 독점출간 / 기출 문항으로 보강된 단기완성 시리즈 / 본책 + 해설집 + 실전 모의고사 1회분 + 무료 MP3 파일",
+            "description": "출제기관 ETS에서 독점 제공하는 토익 단기공략 시리즈 중 하나로, 750점 이상을 목표로 하는 수험자들을 위한 교재다. 최신경향을 분석하여 전략을 제시하고, 엄선된 기출문제 및 ETS 개발문제를 수록하여 실전에 확실히 대비할 수 있도록 하였다.",
+            "isbn": "9788917235944",
+            "cover": "https://image.aladin.co.kr/product/24919/64/coversum/8917235948_1.jpg",
+            "publisher": "(주)YBM(와이비엠)",
+            "pub_date": "2020-08-20",
+            "author": "ETS",
+            "customer_review_rank": 8
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 23,
+        "fields": {
+            "category": 3,
+            "title": "해커스 토익 RC Reading(리딩) 기본서 - 최신기출경향 완벽 반영｜실전모의고사 4회분 [시험장에도 들고 가는 토익 RC 필수 어휘 & 단어암기 MP3 제공]",
+            "description": "토익 시험 최신기출경향을 완벽하게 분석하고 반영했다. 최신 토익 시험의 문제 유형과 경향을 철저하게 분석하여 최신 경향을 제시하고, 경향에 맞춘 파트별 공략법을 상세히 정리하여 중점적으로 학습해야 할 내용을 완벽하게 정리할 수 있다.",
+            "isbn": "9788965424765",
+            "cover": "https://image.aladin.co.kr/product/30640/30/coversum/s432931235_1.jpg",
+            "publisher": "해커스어학연구소(Hackers)",
+            "pub_date": "2024-07-24",
+            "author": "David Cho",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 24,
+        "fields": {
+            "category": 4,
+            "title": "만화로 보는 3분 철학 2 : 서양 중세·근대 철학편",
+            "description": "지금까지 이런 철학 만화는 없었다! 철학의 기초 개념을 잡는 가장 쉬운 책이다. 만화로 3분이면 완벽하게 개념 잡는 서양철학사를 담았다.",
+            "isbn": "9791168270015",
+            "cover": "https://image.aladin.co.kr/product/28209/91/coversum/k092835178_1.jpg",
+            "publisher": "카시오페아",
+            "pub_date": "2021-10-27",
+            "author": "김재훈, 서정욱",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 25,
+        "fields": {
+            "category": 6,
+            "title": "긴긴밤 - 제21회 문학동네어린이문학상 대상 수상작",
+            "description": "제21회 문학동네어린이문학상 대상 수상작. 지구상의 마지막 하나가 된 흰바위코뿔소 노든과 버려진 알에서 태어난 어린 펭귄이 수없는 긴긴밤을 함께하며, 바다를 찾아가는 이야기이다.",
+            "isbn": "9788954677158",
+            "cover": "https://image.aladin.co.kr/product/26302/71/coversum/8954677150_1.jpg",
+            "publisher": "문학동네",
+            "pub_date": "2021-02-03",
+            "author": "루리",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 26,
+        "fields": {
+            "category": 3,
+            "title": "ETS 토익기출 파트별 VOCA 보카 - 최신개정판 / 교재+단어 암기 어플+단어 시험 출제마법사+MP3 / 최신 기출예문, 기출문제 독점수록",
+            "description": "토익 기본 어휘와 토익 만점 어휘 + LEVEP UP 어휘까지 짱짱한 구성으로 전 레벨 수험자가 시험 대비 필독서로 활용할 수 있게 구성하였다. 전 예문을 실제 토익 시험에 나왔던 문장들로 독점 수록하여 최적의 소스로 실전에 대비할 수 있게 하였다.",
+            "isbn": "9788917237481",
+            "cover": "https://image.aladin.co.kr/product/30746/36/coversum/8917237487_1.jpg",
+            "publisher": "(주)YBM(와이비엠)",
+            "pub_date": "2022-12-23",
+            "author": "ETS",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 27,
+        "fields": {
+            "category": 3,
+            "title": "세이노의 가르침 (화이트 에디션) - 피보다 진하게 살아라",
+            "description": "2000년부터 발표된 그의 주옥같은 글들. 독자들이 자발적으로 만든 제본서는 물론, 전자책과 앱까지 나왔던 《세이노의 가르침》이 드디어 전국 서점에서 독자들을 마주한다. 여러 판본을 모으고 저자의 확인을 거쳐 최근 생각을 추가로 수록하였다. 정식 출간본에만 추가로 수록된 글들은 목차와 본문에 별도 표시하였다.",
+            "isbn": "9791168473690",
+            "cover": "https://image.aladin.co.kr/product/30929/51/coversum/s662930344_1.jpg",
+            "publisher": "데이원",
+            "pub_date": "2024-03-02",
+            "author": "세이노(SayNo)",
+            "customer_review_rank": 8
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 28,
+        "fields": {
+            "category": 4,
+            "title": "총 균 쇠 - 인간 사회의 운명을 바꾼 힘",
+            "description": "학문의 경계를 넘나드는 세계적 석학 재레드 다이아몬드. 인류 문명에 대한 예리한 통찰을 전해온 그의 대표작이자 1998년 퓰리처상 수상작 《총, 균, 쇠》를 새 번역, 새 편집으로 만난다. 출간 25년 기념 뉴에디션에는 2023년 저자 특별서문과 서울대 인류학과 박한선 교수의 해제, 새 서문과 후기를 수록해 풍성한 읽을거리를 더했다.",
+            "isbn": "9788934942467",
+            "cover": "https://image.aladin.co.kr/product/31629/43/coversum/8934942460_1.jpg",
+            "publisher": "김영사",
+            "pub_date": "2024-05-10",
+            "author": "재레드 다이아몬드",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 29,
+        "fields": {
+            "category": 4,
+            "title": "만화로 보는 3분 철학 3 : 서양 현대 철학편",
+            "description": "지금까지 이런 철학 만화는 없었다! 철학의 기초 개념을 잡는 가장 쉬운 책이다. 만화로 3분이면 완벽하게 개념 잡는 서양철학사.",
+            "isbn": "9791168270343",
+            "cover": "https://image.aladin.co.kr/product/29398/47/coversum/k332837618_1.jpg",
+            "publisher": "카시오페아",
+            "pub_date": "2022-05-09",
+            "author": "김재훈, 서정욱",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 30,
+        "fields": {
+            "category": 4,
+            "title": "달리기를 말할 때 내가 하고 싶은 이야기",
+            "description": "무라카미 하루키의 달리기를 축으로 한 문학과 인생의 회고록. 달리기를 통해 데뷔 30년을 맞은 작가의 문학관과 인생관, 내적 성찰을 풀어냈다. 하루키는 왜 많은 운동 중에 달리기를 선택했는가? 달리기가 그의 소설에 어떤 영향을 미쳤는가? 하루키는 이 책에서 그에 관한 이야기를 솔직하게 털어놓았다.",
+            "isbn": "9788970128337",
+            "cover": "https://image.aladin.co.kr/product/302/5/coversum/8970128336_3.jpg",
+            "publisher": "문학사상",
+            "pub_date": "2009-01-05",
+            "author": "무라카미 하루키",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 31,
+        "fields": {
+            "category": 6,
+            "title": "사자왕 형제의 모험 - 아스트리드 린드그렌 장편동화",
+            "description": "'재미있다! 세계명작‘ 4권. 스웨덴의 세계적인 동화작가 아스트리드 린드그렌의 판타지 모험 동화다. 신비로운 환상 세계, 가슴 졸이는 모험, 형제애와 인류애, 자유롭고 용감한 삶에 대한 희망을 그린 린드그렌의 대표작으로, 두려움과 용기, 상처와 치유라는 삶과 문학의 영원한 화두를 다루었다.",
+            "isbn": "9788936446734",
+            "cover": "https://image.aladin.co.kr/product/6285/27/coversum/8936446738_2.jpg",
+            "publisher": "창비",
+            "pub_date": "2015-07-10",
+            "author": "아스트리드 린드그렌",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 32,
+        "fields": {
+            "category": 7,
+            "title": "이기적 유전자",
+            "description": "과학을 넘어선 우리 시대의 고전, 『이기적 유전자』 40주년 기념판. 진화론의 새로운 패러다임을 제시한 이 책은 다윈의 ‘적자생존과 자연선택’이라는 개념을 유전자 단위로 끌어내려 진화를 설명한다.",
+            "isbn": "9788932473901",
+            "cover": "https://image.aladin.co.kr/product/17048/25/coversum/8932473900_1.jpg",
+            "publisher": "을유문화사",
+            "pub_date": "2018-10-20",
+            "author": "리처드 도킨스",
+            "customer_review_rank": 8
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 33,
+        "fields": {
+            "category": 2,
+            "title": "돈의 속성 - 최상위 부자가 말하는 돈에 대한 모든 것",
+            "description": "초판 발행 후, 경제경영 필도서로 자리매김한 『돈의 속성』  200쇄 기념 개정증보판이다. 200쇄에 맞춰 코로나19로 바뀐 경제상황과 돈에 관한 김승호 회장의 추가 메시지를 담았다.",
+            "isbn": "9791188331796",
+            "cover": "https://image.aladin.co.kr/product/28884/59/coversum/s522832546_1.jpg",
+            "publisher": "스노우폭스북스",
+            "pub_date": "2020-06-15",
+            "author": "김승호",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 34,
+        "fields": {
+            "category": 3,
+            "title": "해커스 토익 LC Listening(리스닝) 기본서 - 최신기출경향 완벽 반영｜실전모의고사 4회분 [시험장에도 들고 가는 토익 LC 필수 어휘 & 단어암기 MP3 제공]",
+            "description": "파트별 최신 출제 경향과 문제 풀이 방법을 확인할 수 있는 구성을 매 영역마다 제공하고, 자주 틀리는 오답패턴을 수록하여 실수 없이 Part 1, 2 점수 향상이 가능하다. 시각 자료, 의도 파악 문제 등 토익 최신 출제 경향을 완벽하게 반영하였다.",
+            "isbn": "9788965424772",
+            "cover": "https://image.aladin.co.kr/product/30640/55/coversum/s182931386_1.jpg",
+            "publisher": "해커스어학연구소(Hackers)",
+            "pub_date": "2024-07-24",
+            "author": "David Cho",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 35,
+        "fields": {
+            "category": 7,
+            "title": "진짜 쓰는 실무 엑셀 - 유튜브 대표 엑셀 채널, 오빠두가 알려 주는 엑셀 함수, 보고서 작성, 데이터 분석 노하우!",
+            "description": "대기업 직장 생활 10년의 실무 노하우와 엑셀 유튜브 채널을 운영하면서 들은 수많은 직장인의 고민을 해결할 수 있는 다양한 엑셀 비법을 담았다. '진짜 쓰는 실무 엑셀' 한 권이면 빠른 일 처리로 워라밸을 실현하고, 일잘러로 거듭날 수 있다!",
+            "isbn": "9791191600704",
+            "cover": "https://image.aladin.co.kr/product/28819/83/coversum/s292938843_1.jpg",
+            "publisher": "제이펍",
+            "pub_date": "2022-02-15",
+            "author": "오빠두(전진권)",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 36,
+        "fields": {
+            "category": 4,
+            "title": "죽음의 수용소에서",
+            "description": "20세기를 대표하는 사상가이자 정신 의학자인 빅터 프랭클의 자전적인 에세이. 나치 강제 수용소에서 겪은 참혹한 고통을 건조하고 담담한 시선으로 술회한다.",
+            "isbn": "9788936811549",
+            "cover": "https://image.aladin.co.kr/product/24212/1/coversum/8936811541_2.jpg",
+            "publisher": "청아출판사",
+            "pub_date": "2020-05-30",
+            "author": "빅터 프랭클",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 37,
+        "fields": {
+            "category": 4,
+            "title": "지적 대화를 위한 넓고 얕은 지식 1 - 현실 편 : 역사 / 경제 / 정치 / 사회 / 윤리",
+            "description": "고대 이후부터 현대까지 우리에게 좀 더 가까운 시간의 지식들을 다룬 책이다. 고대 이후는 이원론이 지배하는 시대였기에, 책의 구조는 이분법을 따른다. 현실 세계를 지배자와 피지배자로 구분해 어렵고 복잡한 지식들을 하나의 단순한 구조로 재편한다.",
+            "isbn": "9791190313186",
+            "cover": "https://image.aladin.co.kr/product/22872/79/coversum/k992636841_3.jpg",
+            "publisher": "웨일북",
+            "pub_date": "2020-02-01",
+            "author": "채사장",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 38,
+        "fields": {
+            "category": 3,
+            "title": "데일 카네기 인간관계론",
+            "description": "가장 단순한 원칙들로 복잡한 인간관계에 대한 우리의 고민을 명쾌하게 해결해 준다. 사람을 다루는 기본적인 방법, 사람들이 당신을 좋아하도록 만드는 방법, 사람들을 설득하는 방법, 반발 없이 상대를 변화시키는 방법까지, 실생활에 적용할 수 있는 다양한 원칙을 풍부한 사례와 함께 제시한다.",
+            "isbn": "9791187142560",
+            "cover": "https://image.aladin.co.kr/product/20945/79/coversum/s652933016_2.jpg",
+            "publisher": "현대지성",
+            "pub_date": "2019-10-07",
+            "author": "데일 카네기",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 39,
+        "fields": {
+            "category": 4,
+            "title": "내면소통 - 삶의 변화를 가져오는 마음근력 훈련",
+            "description": "《회복탄력성》 출간 이래 한층 더 깊이 마음근력 연구에 집중해온 김주환 교수는 회복탄력성에서 한 단계 더 나아가 ‘내면소통’이 마음근력의 기초이며, 올바른 내면소통을 위한 최선의 방법은 명상이라는 사실을 신간 《내면소통》을 통해 전하고 있다.",
+            "isbn": "9791168340855",
+            "cover": "https://image.aladin.co.kr/product/31189/93/coversum/s512831358_3.jpg",
+            "publisher": "인플루엔셜(주)",
+            "pub_date": "2024-02-27",
+            "author": "김주환",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 40,
+        "fields": {
+            "category": 7,
+            "title": "물고기는 존재하지 않는다 - 상실, 사랑 그리고 숨어 있는 삶의 질서에 관한 이야기",
+            "description": "집착에 가까울 만큼 자연계에 질서를 부여하려 했던 19세기 어느 과학자의 삶을 흥미롭게 좇아가는 이 책은 어느 순간 독자들을 혼돈의 한복판으로 데려가서 우리가 믿고 있던 삶의 질서에 관해 한 가지 의문을 제기한다. “물고기가 존재하지 않는다는 것은 엄연한 하나의 사실이다.",
+            "isbn": "9791189327156",
+            "cover": "https://image.aladin.co.kr/product/28465/73/coversum/k092835920_2.jpg",
+            "publisher": "곰출판",
+            "pub_date": "2021-12-17",
+            "author": "룰루 밀러",
+            "customer_review_rank": 8
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 41,
+        "fields": {
+            "category": 6,
+            "title": "죽이고 싶은 아이",
+            "description": "세계를 건너 너에게 갈게 이꽃님 작가가 결말을 예측할 수 없는, 놀랍도록 흡인력 있는 작품으로 돌아왔다. 죽이고 싶은 아이는 한 여고생의 죽음이라는, 결코 평범하지 않은 이야기를 통해 독자들에게 진실과 믿음에 관한 이야기를 건넨다.",
+            "isbn": "9791190337755",
+            "cover": "https://image.aladin.co.kr/product/27211/83/coversum/k422732197_2.jpg",
+            "publisher": "우리학교",
+            "pub_date": "2021-06-07",
+            "author": "이꽃님",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 42,
+        "fields": {
+            "category": 3,
+            "title": "JLPT 일본어능력시험 한권으로 끝내기 N3 - 최신 개정판",
+            "description": "시험에 완벽하게 대응할 수 있도록 실제 시험 문제와 같은 형식인 1교시 언어지식(문자·어휘·문법)·독해, 2교시 청해 순으로 구성되었다. 이번 개정판에서는 2010년부터 2021년까지 실제 시험에서 출제된 어휘와 문법을 연도별로 실었으며, 문제 유형을 철저히 분석.반영하였다.",
+            "isbn": "9788927712435",
+            "cover": "https://image.aladin.co.kr/product/28087/6/coversum/8927712439_3.jpg",
+            "publisher": "다락원",
+            "pub_date": "2021-10-11",
+            "author": "이치우, 기타지마 치즈코",
+            "customer_review_rank": 8
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 43,
+        "fields": {
+            "category": 6,
+            "title": "키득키득 사운드북 : 동물 오케스트라",
+            "description": "유아들을 위한 간결하고 유쾌한 이야기에 생생한 사운드가 실린 '키득키득 사운드북' 시리즈. 흥미진진한 이야기를 따라 사운드 버튼을 살짝 누르면 5가지 입체적인 소리를 들을 수 있다. 가볍고 작은 판형으로 언제 어디서든 유쾌하고 즐거운 책 놀이를 즐길 수 있다.",
+            "isbn": "8809264181478",
+            "cover": "https://image.aladin.co.kr/product/23401/77/coversum/k582637313_1.jpg",
+            "publisher": "어스본코리아",
+            "pub_date": "2020-02-25",
+            "author": "샘 태플린",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 44,
+        "fields": {
+            "category": 4,
+            "title": "소년과 두더지와 여우와 말",
+            "description": "글과 그림의 조화가 아름다운 그림책이기도 이야기책이기도 하다. 밀레니얼들을 위한 삶의 지침을 담고 있는 철학책으로 분류되기도 한다. 그러나 무엇보다 삶에 대한 깊은 성찰을 아름다운 그림과 진실한 글로 드러내는, 모든 연령대의 독자를 아우르는 책이다.",
+            "isbn": "9788997381678",
+            "cover": "https://image.aladin.co.kr/product/23682/64/coversum/8997381679_2.jpg",
+            "publisher": "상상의힘",
+            "pub_date": "2020-04-20",
+            "author": "찰리 맥커시",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 45,
+        "fields": {
+            "category": 6,
+            "title": "우리 아기 오감발달 동물 오케스트라의 모차르트 사운드북",
+            "description": "아기와 함께 사운드 놀이부터 촉감 놀이, 까꿍 놀이까지 세 가지 놀이를 즐길 수 있는 만능 사운드북이다. 서로 다른 느낌을 전하는 모차르트의 클래식 다섯 곡이 입체적인 음향으로 들린다. 클래식 음악은 아기의 두뇌와 청각 발달에 도움을 주고, 정서적 안정을 도와준다.",
+            "isbn": "8809264181935",
+            "cover": "https://image.aladin.co.kr/product/28877/33/coversum/k492836409_1.jpg",
+            "publisher": "어스본코리아",
+            "pub_date": "2022-02-11",
+            "author": "샘 태플린",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 46,
+        "fields": {
+            "category": 3,
+            "title": "일본어 문법 무작정 따라하기",
+            "description": "16년 간 일본어 문법 분야 베스트셀러 자리를 굳건히 지키며 12만 독자의 사랑을 받은 일본어 문법 무작정 따라하기. 국내 최초로 문법도 귀로 들으면서 익히는 ‘소리 패턴 학습법’을 적용했다. 문법을 귀로 배우면 듣기와 회화 실력까지 보장된다.",
+            "isbn": "9791140702978",
+            "cover": "https://image.aladin.co.kr/product/30963/87/coversum/k212831201_1.jpg",
+            "publisher": "길벗이지톡",
+            "pub_date": "2024-02-14",
+            "author": "후지이 아사리",
+            "customer_review_rank": 8
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 47,
+        "fields": {
+            "category": 3,
+            "title": "한 권으로 끝내는 해커스 토익 700+ (LC+RC+VOCA) - 최신기출유형 100%반영ㅣ기초부터 실전까지 20일 완성 [실전모의고사 2회(교재1회+온라인1회) 제공]",
+            "description": "토익 기초부터 실전까지 한 권으로 끝낼 수 있도록 구성한 교재. 확실한 목표점수 달성을 위한 '기초다지기 & 영역별 기출 핵심 포인트'와 최신 신토익 유형을 완벽 반영한 풍부하고, 다양한 문제를 수록하였고, 상세한 강의식 해설을 담았다.",
+            "isbn": "9788965424628",
+            "cover": "https://image.aladin.co.kr/product/28571/61/coversum/8965424623_1.jpg",
+            "publisher": "해커스어학연구소(Hackers)",
+            "pub_date": "2024-08-07",
+            "author": "해커스어학연구소",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 48,
+        "fields": {
+            "category": 2,
+            "title": "부자의 언어",
+            "description": "『부자의 언어』가 특별 에디션으로 출간되었다. 부에 대한 정의를 일깨워주고, 부를 향한 길로 안내하는 친절한 지침서로 롤러코스터 같은 인생에서 ‘경제적 자유’를 얻기 위해 노력한 한 사람의 스펙터클한 여정이 담겨 있다.",
+            "isbn": "9791155815915",
+            "cover": "https://image.aladin.co.kr/product/31458/92/coversum/k672832326_3.jpg",
+            "publisher": "윌북",
+            "pub_date": "2024-05-01",
+            "author": "존 소포릭",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 49,
+        "fields": {
+            "category": 6,
+            "title": "세계를 건너 너에게 갈게 - 제8회 문학동네청소년문학상 대상 수상작",
+            "description": "제8회 문학동네청소년문학상 대상 수상작. 서로 다른 시간을 살아가는 두 은유가 편지를 주고받으면서 벌어지는 이야기로, 2016년의 은유가 1년을 살아가는 동안 1982년의 은유는 20년의 세월을 살아간다.",
+            "isbn": "9788954650212",
+            "cover": "https://image.aladin.co.kr/product/13366/86/coversum/895465021x_1.jpg",
+            "publisher": "문학동네",
+            "pub_date": "2018-02-09",
+            "author": "이꽃님",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 50,
+        "fields": {
+            "category": 5,
+            "title": "THE FOOD LAB 더 푸드 랩 : 더 나은 요리를 위한 주방 과학의 모든것!",
+            "description": "요리를 잘 하는 것뿐 아니라 조리의 과정과 원리에 대해 납득하고 이해하며 요리를 할 수 있게 돕는 책이다. 잘못 알려진 요리 상식에 도전하고, 정확한 결과를 도출하기 위해 실험을 거듭하고, 그 결과 완성한 레시피들을 담았다.",
+            "isbn": "9788931455625",
+            "cover": "https://image.aladin.co.kr/product/11201/88/coversum/8931455623_1.jpg",
+            "publisher": "영진.com(영진닷컴)",
+            "pub_date": "2017-06-28",
+            "author": "J. 켄지 로페즈 알트",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 51,
+        "fields": {
+            "category": 5,
+            "title": "백년 허리 2 : 치료편 - 내 허리 사용 설명서",
+            "description": "서울대 의대 재활의학과 정선근 교수의 스테디셀러인 백년허리1 진단편에 이은 실제적인 치료 방법을 제시하고 있는 백년허리2 치료편이다. 치료편에서 저자는 허리 통증에서 벗어날 수 있는 방법을 정확히, 구체적으로, 누구나 따라할 수 있도록 설명하고 있다.",
+            "isbn": "9791197437311",
+            "cover": "https://image.aladin.co.kr/product/27124/76/coversum/k272731146_1.jpg",
+            "publisher": "언탱글링",
+            "pub_date": "2021-05-13",
+            "author": "정선근",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 52,
+        "fields": {
+            "category": 2,
+            "title": "부자 아빠 가난한 아빠 1- 개정증보판",
+            "description": "『부자 아빠 가난한 아빠 1』의 내용에 세계 금융 변화에 맞춘 41개의 ‘20년 전 그리고 오늘’과 토론과 실천을 위한 10가지 ‘스터디세션’ 등 원고지 500매 분량이 추가된 업그레이드 에디션.",
+            "isbn": "9791158883591",
+            "cover": "https://image.aladin.co.kr/product/13492/56/coversum/k162532501_2.jpg",
+            "publisher": "민음인",
+            "pub_date": "2018-02-22",
+            "author": "로버트 기요사키",
+            "customer_review_rank": 8
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 53,
+        "fields": {
+            "category": 2,
+            "title": "전설로 떠나는 월가의 영웅 - 주식투자에서 상식으로 성공하는 법, 2021 최신개정판",
+            "description": "월가의 전설적인 인물 피터 린치가 개인투자자들을 위해 1989년에 출간했던 《월가의 영웅》최신 개정판이다. 월가에서 은퇴한 후 처음으로 저술한 책으로, 자서전 형식을 띠면서 주식투자에 관한 저자의 철학을 유쾌하게 서술한 투자지침서이기도 하다.",
+            "isbn": "9788957825945",
+            "cover": "https://image.aladin.co.kr/product/27663/60/coversum/8957825940_1.jpg",
+            "publisher": "국일증권경제연구소",
+            "pub_date": "2021-07-30",
+            "author": "피터 린치, 존 로스차일드",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 54,
+        "fields": {
+            "category": 2,
+            "title": "사업의 철학 - 성공한 사람들은 절대 말해 주지 않는 성공의 모든 것",
+            "description": "마이클 거버 컴퍼니의 창립자이자 CDO인 마이클 E. 거버의 책. 이 책은 미국에서 출간 즉시 경영의 고전이 된 책으로, 사업에 대해 아무것도 모른 채 무작정 창업에 뛰어들었다가 이내 지옥의 고통을 맛봐야 했던 수많은 사업가들을 폐업의 위기로부터 구한 밀리언셀러다.",
+            "isbn": "9788998075200",
+            "cover": "https://image.aladin.co.kr/product/6579/50/coversum/8998075202_2.jpg",
+            "publisher": "라이팅하우스",
+            "pub_date": "2015-09-01",
+            "author": "마이클 E. 거버",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 55,
+        "fields": {
+            "category": 5,
+            "title": "오늘의 일인분 일식 - 나를 위한 맛있는 일본 가정식 한 끼",
+            "description": "누구나 집에서 간편히 즐길 수 있는 맛있는 '일인분 일식'을 소개한다. 집에서는 만들기 어렵다고 생각할 수 있는 소고기 감자조림이나 치킨 데리야끼, 카레유부우동과 같은 일본 가정 요리를 우리 주변에서 손쉽게 구할 수 있는 재료와 늘 곁에 있는 조미료를 사용해 맛있게 만들어 먹을 수 있도록 도와준다.",
+            "isbn": "9791188601233",
+            "cover": "https://image.aladin.co.kr/product/19515/18/coversum/k782635825_1.jpg",
+            "publisher": "참돌",
+            "pub_date": "2019-06-17",
+            "author": "베터홈 협회",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 56,
+        "fields": {
+            "category": 2,
+            "title": "생각에 관한 생각 - 우리의 행동을 지배하는 생각의 반란!",
+            "description": "2002년 심리학자로는 최초로 노벨경제학상을 수상한 ‘행동경제학’의 창시자이자, 세계에서 7번째로 영향력이 막강한 경제학자(〈이코노미스트〉 선정, 2015)인 대니얼 카너먼의 기념비적인 저작. 최신판에는 번역과 편집을 보강해 세계적인 석학의 이론과 연구 결과를 더욱더 흥미롭고 충실하게 선보인다.",
+            "isbn": "9788934981213",
+            "cover": "https://image.aladin.co.kr/product/14013/55/coversum/8934981210_1.jpg",
+            "publisher": "김영사",
+            "pub_date": "2018-03-30",
+            "author": "대니얼 카너먼",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 57,
+        "fields": {
+            "category": 5,
+            "title": "백년 허리 1 : 진단편 - 내 허리 통증 해석하기, 개정증보판",
+            "description": "서울대 의대 재활의학과 정선근 교수의 스테디셀러인 '백년허리'의 개정증보판이다. 백년허리의 초판에서 고쳐야 할 부분을 대거 보충 하였을 뿐 아니라, 허리 통증은 진화의 축복이라는 요통에 대한 새로운 관점을 제시하고 있다.",
+            "isbn": "9791197437304",
+            "cover": "https://image.aladin.co.kr/product/26952/44/coversum/k872730815_2.jpg",
+            "publisher": "언탱글링",
+            "pub_date": "2021-04-15",
+            "author": "정선근",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 58,
+        "fields": {
+            "category": 2,
+            "title": "경제금융용어 700선",
+            "description": "",
+            "isbn": "9791155383933",
+            "cover": "https://image.aladin.co.kr/product/24922/20/coversum/k012632571_2.jpg",
+            "publisher": "한국은행",
+            "pub_date": "2020-08-18",
+            "author": "한국은행 (엮은이)",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 59,
+        "fields": {
+            "category": 2,
+            "title": "보도 섀퍼의 돈",
+            "description": "돈을 버는데 비상한 재능이 있는 이 책의 저자 보도 섀퍼는 열여섯에 독일에서 미국으로 건너가 고등학교를 졸업하고, 독일과 멕시코에서 법학을 전공했다. 대학을 마친 후에는 여러 기업에서 일하며 능력을 인정받고 다양한 경력을 쌓았다. 이 기간 동안 그는 부와 명성을 소유한 거부들을 만나게 되고, 그들로부터 부가 쌓이고 돈이 늘어나는 원리를 배운다.",
+            "isbn": "9788919205013",
+            "cover": "https://image.aladin.co.kr/product/41/8/coversum/s742834417_1.jpg",
+            "publisher": "에포케",
+            "pub_date": "2011-05-17",
+            "author": "보도 섀퍼",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 60,
+        "fields": {
+            "category": 5,
+            "title": "사카모토 데이즈 2 - 하드보일드",
+            "description": "사카모토를 노리는 기묘한 킬러와 대치하는 신. 생각을 읽을 수 없는 적에게 대응할 방법은...?! 어떻게든 놀이공원에서의 평화로운 휴일을 사수하려는 사카모토 일행에게 강력한 킬러 콤비의 마수가 뻗어온다!! 가족들에게 비밀로 진행되는 초고난도 미션의 결과는?!",
+            "isbn": "9791136292315",
+            "cover": "https://image.aladin.co.kr/product/28463/97/coversum/k552835825_1.jpg",
+            "publisher": "대원씨아이(만화)",
+            "pub_date": "2021-12-20",
+            "author": "스즈키 유우토",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 61,
+        "fields": {
+            "category": 5,
+            "title": "다운튼 애비 애프터눈 티 쿡북",
+            "description": "영국식 애프터눈 티 문화와 전통에 대한 소개와 함께, 드라마 다운튼 애비 속 주인공들이 좋아했던 다양한 디저트 레시피들을 한 권에 모았다. 마들렌, 카눌레, 스콘, 타르트, 티 샌드위치 등 차와 함께 즐길 수 있는 55가지 정통 디저트 레시피를 담았다.",
+            "isbn": "9791191212235",
+            "cover": "https://image.aladin.co.kr/product/31734/6/coversum/k292833191_1.jpg",
+            "publisher": "아르누보",
+            "pub_date": "2024-05-28",
+            "author": "다운튼 애비",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 62,
+        "fields": {
+            "category": 5,
+            "title": "백년운동 - 척추.관절 아프지 않게 100세까지 운동하는 방법",
+            "description": "서울대 의대 재활의학과 정선근 교수의 새로운 책. ‘백년운동’을 통해서 100세 인생을 건강하고 멋지게 살고 싶은 이들에게 그 방법을 의학적으로 제시한다.",
+            "isbn": "9791196834005",
+            "cover": "https://image.aladin.co.kr/product/21648/31/coversum/k812636693_1.jpg",
+            "publisher": "아티잔",
+            "pub_date": "2019-11-01",
+            "author": "정선근",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 63,
+        "fields": {
+            "category": 5,
+            "title": "사카모토 데이즈 5 - 사형수",
+            "description": "",
+            "isbn": "9791169184007",
+            "cover": "https://image.aladin.co.kr/product/29837/65/coversum/k252838821_1.jpg",
+            "publisher": "대원씨아이(만화)",
+            "pub_date": "2022-07-22",
+            "author": "스즈키 유우토",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 64,
+        "fields": {
+            "category": 5,
+            "title": "사카모토 데이즈 6 - 운이 나쁘구나",
+            "description": "흉악 사형수,ORDER, 사카모토 상점. 마주치는 순간 서로 죽고 죽이는 혈투가 시작된다. 각개 각소에서 긴박한 전투가 펼쳐지는 가운데, 사카모토의 몸에 이변이 발생한다. 뒤에서 모든 것을 조종하는 'x(슬러)'의 진정한 노림수가 밝혀질 때, 킬러계가 거세게 휘청인다.",
+            "isbn": "9791169189248",
+            "cover": "https://image.aladin.co.kr/product/30113/38/coversum/k952839984_1.jpg",
+            "publisher": "대원씨아이(만화)",
+            "pub_date": "2022-09-26",
+            "author": "스즈키 유우토",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 65,
+        "fields": {
+            "category": 7,
+            "title": "Do it! 점프 투 파이썬 - 중학생도 첫날부터 실습하는 초고속 입문서, 전면 개정 2판",
+            "description": "챗GPT를 시작으로 펼쳐진 생성 AI 시대에 맞춰 설명과 예제를 다듬고, 최신 경향과 심화 내용을 보충했다. 또한 이번 개정 2판도 50만 코딩 유튜버인 조코딩과 협업을 통해 유튜브 동영상을 제공해 파이썬을 더 쉽게 공부할 수 있다.",
+            "isbn": "9791163034735",
+            "cover": "https://image.aladin.co.kr/product/31794/10/coversum/k362833219_1.jpg",
+            "publisher": "이지스퍼블리싱",
+            "pub_date": "2024-06-15",
+            "author": "박응용",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 66,
+        "fields": {
+            "category": 7,
+            "title": "회사는 엑셀을 가르쳐주지 않아요",
+            "description": "1:1 과외, 그룹 스터디, 대형 강의, 기업 출강, 탈잉 온·오프라인 클래스까지?총 10,000명 이상을 가르친 쏘피 튜터의 노하우가 고스란히 담긴 이 책은 엑셀 입문자의?눈높이에 맞춰 회사에서 반드시 필요한 엑셀 사용법을 설명한다.",
+            "isbn": "9791129708328",
+            "cover": "https://image.aladin.co.kr/product/30154/39/coversum/k212839588_1.jpg",
+            "publisher": "메가스터디북스",
+            "pub_date": "2022-09-20",
+            "author": "쏘피(박성희)",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 67,
+        "fields": {
+            "category": 7,
+            "title": "다정한 것이 살아남는다 - 친화력으로 세상을 바꾸는 인류의 진화에 관하여",
+            "description": "늑대는 멸종 위기에 처했는데, 같은 조상에서 갈라져 나온 개는 어떻게 개체 수를 늘려나갈 수 있었을까? 사나운 침팬지보다 다정한 보노보가 더 성공적으로 번식할 수 있던 이유는? 브라이언 헤어와 버네사 우즈는 이에 대해 ‘다정한 것이 살아남는다’라는 답을 내놓는다.",
+            "isbn": "9791197413025",
+            "cover": "https://image.aladin.co.kr/product/27608/83/coversum/k722733028_3.jpg",
+            "publisher": "디플롯",
+            "pub_date": "2021-07-26",
+            "author": "브라이언 헤어, 버네사 우즈",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 68,
+        "fields": {
+            "category": 7,
+            "title": "침팬지 폴리틱스 - 권력 투쟁의 동물적 기원",
+            "description": "동물학자 프란스 드 발은 1976년 네덜란드 아넴 지방에 있는 부르거스 동물원 야외사육장의 침팬지들을 관찰한다. 그리고 소름끼칠 정도로 인간스럽게 정치적 관계, 사회적 우열 관계를 형성해가는 침팬지들을 목격하고 그 관찰과 기록을 토대로 책을 썼다.",
+            "isbn": "9788955617085",
+            "cover": "https://image.aladin.co.kr/product/13536/86/coversum/8955617089_1.jpg",
+            "publisher": "바다출판사",
+            "pub_date": "2018-03-09",
+            "author": "프란스 드 발",
+            "customer_review_rank": 9
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 69,
+        "fields": {
+            "category": 7,
+            "title": "혼자 공부하는 컴퓨터 구조 + 운영체제 - 1:1 과외하듯 배우는 컴퓨터공학 자습서",
+            "description": "1:1 과외하듯 배우는 IT 지식 입문서. 독학으로 컴퓨터 구조와 운영체제를 배우는 입문자가 ‘꼭 필요한 내용을 제대로 학습’할 수 있도록 구성했다. 뭘 모르는지조차 모르는 입문자의 막연한 마음에 십분 공감하여 과외 선생님이 알려주듯 친절하게, 핵심 내용만 콕콕 집어 준다.",
+            "isbn": "9791162243091",
+            "cover": "https://image.aladin.co.kr/product/29901/42/coversum/k932838038_1.jpg",
+            "publisher": "한빛미디어",
+            "pub_date": "2022-08-16",
+            "author": "강민철",
+            "customer_review_rank": 10
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 70,
+        "fields": {
+            "category": 7,
+            "title": "E=mc² - 세상에서 가장 유명한 방정식의 일생",
+            "description": "“에너지는 질량과 빛의 속도의 제곱을 곱한 것과 같다.” 세상에서 가장 유명하고 아름다운 방정식 E=mc². 1905년, 이제 막 20세기가 시작했을 때, 스물여섯 살 무명 과학자였던 아인슈타인의 머릿속에 떠오른 이 짤막한 방정식이 어떻게 세계를 뒤흔들게 되었을까?",
+            "isbn": "9788901165851",
+            "cover": "https://image.aladin.co.kr/product/4429/95/coversum/8901165856_1.jpg",
+            "publisher": "웅진지식하우스",
+            "pub_date": "2014-07-25",
+            "author": "데이비드 보더니스",
+            "customer_review_rank": 8
+        }
+    }
+]
